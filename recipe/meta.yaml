@@ -41,7 +41,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=TFisher
-  license: GPL-2
+  license: GPL-2.0-only
   summary: 'We provide the cumulative distribution function (CDF), quantile, and statistical
     power calculator for a collection of thresholding Fisher''s p-value combination
     methods, including Fisher''s p-value combination method, truncated product method

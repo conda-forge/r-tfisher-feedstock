@@ -3,13 +3,11 @@ About r-tfisher
 
 Home: https://CRAN.R-project.org/package=TFisher
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tfisher-feedstock/blob/master/LICENSE.txt)
 
 Summary: We provide the cumulative distribution function (CDF), quantile, and statistical power calculator for a collection of thresholding Fisher's p-value combination methods, including Fisher's p-value combination method, truncated product method and, in particular, soft-thresholding Fisher's p-value combination method which is proven to be optimal in some context of signal detection. The p-value calculator for the omnibus version of these tests are also included. For reference, please see Hong Zhang and Zheyang Wu. "TFisher Tests: Optimal and Adaptive Thresholding for Combining p-Values", submitted.
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-tfisher` from the `conda-forge` channel can be achieved by adding 
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-tfisher` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
