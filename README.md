@@ -1,11 +1,11 @@
-About r-tfisher
-===============
+About r-tfisher-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tfisher-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=TFisher
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tfisher-feedstock/blob/main/LICENSE.txt)
 
 Summary: We provide the cumulative distribution function (CDF), quantile, and statistical power calculator for a collection of thresholding Fisher's p-value combination methods, including Fisher's p-value combination method, truncated product method and, in particular, soft-thresholding Fisher's p-value combination method which is proven to be optimal in some context of signal detection. The p-value calculator for the omnibus version of these tests are also included. For reference, please see Hong Zhang and Zheyang Wu. "TFisher Tests: Optimal and Adaptive Thresholding for Combining p-Values", submitted.
 
